@@ -1,4 +1,4 @@
-import Tokenize
+import Tokenize #подключение ранее реальзованого токенизатора
 import pymorphy2
 import math
 import copy
@@ -11,7 +11,7 @@ import pandas
 from nltk.corpus import stopwords
 from scipy.spatial.distance import squareform
 
-
+#выделение вектора-слова
 def get_vector(words, word_matrix, word):
     for y, x in enumerate(words):
         if x == word:
