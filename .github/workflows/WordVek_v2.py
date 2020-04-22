@@ -113,11 +113,12 @@ for i in range(len(word_set)):
         if D2_ppmi[i][j] < 0:
             D2_ppmi[i][j] = 0
 
-# получение векторов-слов для тестирования
+# определение тестовой выборки; данные слова также содержатся в wordsim353
 test_list = ['planet', 'sun', 'opera', 'industry', 'money', 'cash', 'bank',
              'credit', 'card', 'information', 'computer',
              'internet', 'software','professor', 'cucumber', 'doctor']
 
+# получение векторов-слов для тестирования и определение матрицы значений для кластеризации
 def d(coord, word):
     i, j = coord
     v1 = get_vector(word_set, D2_ppmi, word[i])
@@ -127,14 +128,17 @@ def d(coord, word):
 
 tri = np.triu_indices(len(test_list), 1)
 weights = np.apply_along_axis(d, 0, tri, test_list)
-print(tri)
-print(weights)
 
 
+# Иерархическая кластеризация
 Z = linkage(weights, 'ward')
 dn = dendrogram(Z, labels=np.array(test_list), leaf_rotation=90, leaf_font_size=7)
 fig = plt.figure(figsize=(10, 5))
 
+
+# Cравнение различных метрик с "Human (Mean)" в wordsim353. В целом, положительная корреляция есть, однако присутствуют и отклонения
+# вследствие разных обучающих выборок текстов для wordsim и эксперимента. В постороения данных матриц слов бралось 10 текстов по различным 
+# тематикам, соотносящимся с тестовым списком слов. Результаты представлены в файле "result.txt". Результаты кластеризации - в dendrogram.png
 filename = "wordsim353crowd.csv"
 wordsim353 = pandas.read_csv(filename)
 
