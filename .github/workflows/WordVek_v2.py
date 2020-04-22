@@ -57,9 +57,8 @@ def cosine_similarity(v1, v2):
 morph = pymorphy2.MorphAnalyzer()
 
 stop_words = stopwords.words('english')
-# stop_words.extend(['что', 'это', 'так', 'вот', 'быть', 'как', 'в', '–', 'к', 'на', 'т.к', 'т.п', 'др'])
 n = 10
-ws = 3  # ширина контекста
+ws = 5  # ширина контекста
 
 word_set = []
 D = []
@@ -118,23 +117,6 @@ for i in range(len(word_set)):
 test_list = ['planet', 'sun', 'opera', 'industry', 'money', 'cash', 'bank',
              'credit', 'card', 'information', 'computer',
              'internet', 'software','professor', 'cucumber', 'doctor']
-# test_matrix = [get_vector(word_set, D2_ppmi, i) for i in test_list]
-
-#test_matrix = np.zeros([len(test_list),len(test_list)])
-
-# for i in range(len(test_list)):
-#     for y, x in enumerate(word_set):
-#         if x == test_list[i]:
-#             for j in range(len(test_list)):
-#                 for k, l in enumerate(word_set):
-#                     if l == test_list[j]:
-#                         test_matrix[i][j] = D2_ppmi[y][k]
-
-# иерархическая кластеризация
-# def d(coord, m):
-#     i, j = coord
-#     return m[i][j]
-
 
 def d(coord, word):
     i, j = coord
@@ -142,24 +124,12 @@ def d(coord, word):
     v2 = get_vector(word_set, D2_ppmi, word[j])
     return jaccard(v1, v2)
 
-# condensedD = squareform(test_matrix)
-# Y = linkage(condensedD, method='centroid')
-
 
 tri = np.triu_indices(len(test_list), 1)
 weights = np.apply_along_axis(d, 0, tri, test_list)
 print(tri)
 print(weights)
 
-#tri = np.triu_indices(len(test_matrix), 1)
-
-#weights = np.apply_along_axis(d, 0, tri, test_matrix)
-
-#MyFile2 = open('weights.txt', 'w')
-#MyList2 = map(lambda x: x + '\n', weights)
-#for i in weights:
-#    MyFile2.writelines(i)
-#MyFile2.close()
 
 Z = linkage(weights, 'ward')
 dn = dendrogram(Z, labels=np.array(test_list), leaf_rotation=90, leaf_font_size=7)
