@@ -1,0 +1,21 @@
+What Is an Industry? 
+An industry is a group of companies that are related based on their primary business activities. In modern economies, there are dozens of industry classifications, which are typically grouped into larger categories called sectors.
+
+Individual companies are generally classified into an industry based on their largest sources of revenue. For example, while an automobile manufacturer might have a financing division that contributes 10% to the firm's overall revenues, the company would be classified in the automaker industry by most classification systems.
+How an Industry Works 
+Similar businesses are grouped into industries based on the primary product produced or sold, creating industry groups that can be used to isolate businesses from those who participate in different activities. Investors and economists often study industries to better understand the factors and limitations of corporate profit growth. Companies operating in the same industry can also be compared to each other to evaluate the relative attractiveness of a company within that industry.
+
+Stocks of companies operating within the same industry tend to have similar stock price movements.
+Special Considerations 
+Stocks within the same industry often rise and fall as a group, because the same macroeconomic factors affect all members. These can include changes in market sentiment on the part of investors, such as those based on a response to a particular event or piece of news, as well as changes directed specifically towards the specific industry, such as new regulations or increased raw material costs.
+
+However, events relating to just one particular business can cause the associated stock to rise or fall separately from others within the industry. This can be the result of events including, but not limited to, a differentiating product release, a corporate scandal in the news or a change in leadership structures.
+
+Key Takeaways
+Similar companies are grouped together into industries, and there are a number of different industries, such as department stores and shoemakers.
+Industry grouping is based on the primary product that a company makes are sells. Meanwhile, industries are grouped together into sectors.
+The North American Industry Classification System is the standard classification system used by government agencies to organize companies into sectors or industries.
+Industries vs. Sectors 
+While both sectors and industries are classification systems used to group like business operations, sectors are broader than industries. For example, consumer goods is a sector in the North American Industry Classification System (NAICS), and within that sector are industries, such as rubber and plastic footwear and department stores. Nike Inc. and the Target Corporation are members of the same consumer goods sector, but each would be listed in a different industry based on the specifics of the products they produce or sell. Nike is classified within the rubber and plastics footwear industry (NAICS Code 3021), while Target is classified within the department stores industry (NAICS Code 45211).
+
+The North American Industry Classification System (NAICS), developed by the United States, Canada, and Mexico, is the standard upon which government agencies classify businesses when compiling statistical data. In the NAICS hierarchy, companies that use similar production processes are categorized in the same industry. Global Industry Classification Standard (GICS) is also a commonly referenced classification system.
