@@ -276,9 +276,9 @@ def show(result, method):
 
 
 
-dict_files = {('planet','sun'): 9, ('opera', 'industry'): 8, ('money', 'cush'): 8, ('bank', 'money'): 8,
-              ('credit', 'card'): 8, ('credit', 'information'): 8, ('computer', 'internet'): 8, ('computer', 'software'): 8,
-              ('professor', 'cucumber'): 8, ('professor', 'doctor'): 11}
+dict_files = {('planet','sun'): 9, ('opera', 'industry'): 4, ('money', 'cush'): 8, ('bank', 'money'): 8,
+              ('credit', 'card'): 7, ('credit', 'information'): 8, ('computer', 'internet'): 7, ('computer', 'software'): 7,
+              ('professor', 'cucumber'): 8, ('professor', 'doctor'): 8}
 result_base, result_plsa, result_word2vec = [], [], []
 for group_names, count in dict_files.items():
     first_word, second_word = group_names
