@@ -1,0 +1,61 @@
+How we use the Internet 
+The Internet and the World Wide Web play important roles in many areas of life: 
+More and more products are sold over the net. Companies advertise their products on websites and customers can buy them online without going to a shop. 
+Software can be downloaded from servers . 
+News agencies , newspapers and TV stations bring breaking news stories to a worldwide audience . You can watch videos ,listen to interviews and look at photos of major events whenever you want to. 
+People buy fewer CDs in music stores. More and more songs are downloaded from the Internet and copied to a discman or an MP3 player . 
+Schools and universities use the Internet to find information. Pupils often get their homework over the Internet or send teachers essays and other homework. Pupils and teachers communicate with each other by email and in chat sessions . 
+Scientists all over the world share information on different kinds of projects and experiments. It is even possible to make instruments, like telescopes or microscopes , work by remote control . 
+The Internet has made travelling easier. You can book holidays and buy flight tickets on the net.
+ 
+
+  
+Dangers on the Internet 
+  
+The Internet has many good sides but there are also dangers on the net. Here are some things that you should be aware of: 
+Viruses are small computer programmes that are created by people who want to do damage to the Internet. They are made to make computers slower or, in some cases , erase important information or even make a computer crash . The Internet has made it easy to send these programmes from one computer to another. Very often, you get a virus by opening a file that comes with an email. 
+You can protect yourself by using anti-virus programmes. They warn you if a virus has reached your computer or if something is wrong.
+Do not open email attachments if you don’t know who sent them ! 
+User names and passwords are very important personal information . When you browse the web there are many websites where you have to type in such information . You also need a password to read your email. 
+Protect your passwords from other eyes. 
+Think of passwords that are difficult to find out . Don’t use your phone number or your date of birth. 
+Use a combination of numbers and letters 
+Store your passwords in a safe place and don’t show them to anybody. 
+Hackers are waiting to take control of your computer . Use a firewall to keep them out. 
+From time to time security holes are discovered . Always download patches that give your operating system more protection . 
+Log offline when you don’t need the Internet. 
+Be careful when you buy something from online stores and make sure you are using a safe connection . A closed lock at the bottom of your browser shows you that you are on a safe website . 
+The Internet is a network of millions of computers all over the world that are connected with each other and work together. It started in the USA in the 1970s and 1980s as a government project. The World Wide Web , which came up in the middle of the 1990s , made the Internet easy to use for everybody. 
+Education , business, entertainment and government are changing as the Internet moves into the lives of more and more people. 
+ 
+Networks 
+A network is a group of computers that are connected to each other by cables or telephone lines. Most networks have one or more servers, more powerful computers that hold programmes and other data. A group of computers that are in the same room or building is usually called a LAN (Local Area Network). A Wide Area Network (WAN) connects computers that are far apart. 
+ 
+How the Internet Works 
+All computers that are connected to the Internet must speak the same language. It is called TCP/IP (Transmission Control Protocol/ Internet Protocol). and makes sure that information sent by one computer arrives at a certain destination. 
+Every computer on the Internet has an IP address. It is made up of 4 groups of up to 3 numbers, separated by a dot. For example : 207.46.230.219 . Such an IP number can only occur once in the whole world. Because such numbers are difficult to remember, computers have names, like “ www.news.at” or “ www.cnn.com” . If we want to get information from a certain computer we must type in its name. Special computers on the net have the job of turning names into numbers which computers can understand. Such computers are called Domain Name Servers (DNS). 
+
+ 
+ 
+When a computer sends data to another computer it is broken up into many small packets . These small packets can travel on their own . When they get to their destination , the packets are put together again in the right order . Each of them may take different routes and they pass by many other computers to get there. 
+ 
+Internet services 
+E-Mail is the oldest and most popular form of communication between computers. People send messages to each other using an email address . Such an address has two parts: the user name of a person and the name of the computer itself. These two parts are separated by the “@”. 
+
+Structure of an email address 
+Newsgroups are discussion boards that let many people all over the world post messages on a certain topic . These messages are saved and people can read them over and over again. 
+Chats are live Internet meetings in which you type a message into your keyboard and it appears immediately on the screens of other chatters. Groups of people meet in chat rooms where they talk about subjects they like. 
+The World Wide Web is another popular way of sharing information on the Internet. It uses a special language called HTML , which stands for “ Hypertext Markup Language” . A document on the web can have text, pictures, animations, videos and music. Hyperlinks allow you to move to other documents on the same computer or let you travel around the world to another computer on the Internet.
+
+If you want to read web pages you need a special kind of programme called a web browser, that can understand these documents . Common web browsers are the Internet Explorer, Netscape Navigator or Firefox.
+There are over 10 billion documents on the web. Each one of them has a unique address called a URL (Uniform Resource Locator). It looks like this: 
+People today like to start their web browser and click from one website to another to find information or to see what’s new. This is called browsing the net . 
+
+
+  
+
+  
+Finding Information 
+  
+The Internet and the World Wide Web have put a world of information at our doorstep . But how can we find what we’re looking for? Search engines help us find the information we need. Most of them use programmes called spiders that visit as many websites as they can and put them into a catalogue or index . 
+However , Internet users must be careful. Just about anyone can put information on the web. Some of that information may be very accurate , but other information may be completely wrong. So it’s up to us to find out what’s right and what’s wrong. 
