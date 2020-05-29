@@ -1,0 +1,17 @@
+pair 1: planet & sun
+PLSA
+kullback_leibler: 0.270092560777634
+jensen_shannon: -0.5631262937620
+cosine: 0.47084975507718
+jaccard: 0.425656885670
+     Word 1 Word 2  Human (Mean)
+240  planet    sun        5.8125 
+
+WORD2VEC
+kullback_leibler: -0.13007564532340
+jensen_shannon: -0.235472231287
+cosine: 0.568123730942847
+jaccard: 0.3953452348256568
+     Word 1 Word 2  Human (Mean)
+240  planet    sun        5.8125 
+
