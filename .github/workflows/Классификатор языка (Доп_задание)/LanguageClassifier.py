@@ -57,13 +57,12 @@ def get_score(pretrainded_models, current_model, n=3):
         result[item] = abs(result[item] - int(total_distance / n))
     return result
 
-
 languages = ['blr', 'rus', 'ukr']
 pretrainded_models = train_models(languages)
 pretrainded_models = read_models(languages, 5000)
 df = pd.DataFrame(np.zeros([len(languages), len(languages)]), index=languages, columns=languages)
 labels = pd.read_csv('Texts/labels.csv').set_index('name')
-print('Count text dataframe: \n{}'.format(labels.loc[:, 'language'].value_counts()))
+print('Тексты для тестирования: \n{}'.format(labels.loc[:, 'language'].value_counts()))
 for i in range(1, 11):
     with open('Texts/text_{}.txt'.format(i), encoding='utf-8') as f:
         text = f.read().rstrip()
@@ -79,7 +78,7 @@ for i in range(1, 11):
         df.loc[predicted_language][predicted_language] += 1
     else:
         df.loc[predicted_language][actual_language] += 1
-print('Resulted dataframe: \n{}'.format(df))
+print('Результирующее распределение: \n{}'.format(df))
 with np.errstate(divide='ignore'):
     for language in languages:
         recall = df.loc[language][language] / sum(df[language])
@@ -90,3 +89,5 @@ with np.errstate(divide='ignore'):
     total_without_true_positive = df.mask(np.eye(3, dtype=bool)).fillna(0.0).values.sum()
     accuracy = true_positive / (total_without_true_positive + true_positive)
     print('Accuracy: {}'.format(accuracy))
+
+   
