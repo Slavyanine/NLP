@@ -1,0 +1,49 @@
+Тексты для тестирования: 
+ukr    4
+blr    3
+rus    3
+Name: language, dtype: int64
+Predicted: text1 in blr language
+Predicted score: {'blr': 2582329, 'rus': 2553982, 'ukr': 28347}
+Actual: text1 in rus language
+Predicted: text2 in blr language
+Predicted score: {'blr': 1502612, 'rus': 1294000, 'ukr': 208611}
+Actual: text2 in rus language
+Predicted: text3 in rus language
+Predicted score: {'blr': 4445937, 'rus': 5533952, 'ukr': 1088015}
+Actual: text3 in rus language
+Predicted: text4 in blr language
+Predicted score: {'blr': 5343513, 'rus': 2589343, 'ukr': 2754172}
+Actual: text4 in blr language
+Predicted: text5 in blr language
+Predicted score: {'blr': 4978735, 'rus': 2516152, 'ukr': 2462583}
+Actual: text5 in blr language
+Predicted: text6 in blr language
+Predicted score: {'blr': 1762844, 'rus': 917691, 'ukr': 845154}
+Actual: text6 in blr language
+Predicted: text7 in ukr language
+Predicted score: {'blr': 2826442, 'rus': 347870, 'ukr': 3174310}
+Actual: text7 in ukr language
+Predicted: text8 in ukr language
+Predicted score: {'blr': 5294683, 'rus': 1206521, 'ukr': 6501202}
+Actual: text8 in ukr language
+Predicted: text9 in ukr language
+Predicted score: {'blr': 5611406, 'rus': 1217809, 'ukr': 6829214}
+Actual: text9 in ukr language
+Predicted: text10 in blr language
+Predicted score: {'blr': 5009959, 'rus': 1960614, 'ukr': 3049345}
+Actual: text10 in ukr language
+Результирующее распределение: 
+     blr  rus  ukr
+blr  3.0  2.0  1.0
+rus  0.0  1.0  0.0
+ukr  0.0  0.0  3.0
+Recall blr-class: 1.0
+Precision blr-class: 0.5
+Recall rus-class: 0.3333333333333333
+Precision rus-class: 1.0
+Recall ukr-class: 0.75
+Precision ukr-class: 1.0
+Accuracy: 0.7
+
+Process finished with exit code 0
